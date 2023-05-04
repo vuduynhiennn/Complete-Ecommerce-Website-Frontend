@@ -1,12 +1,16 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 import Marquee from "react-fast-marquee";
 import BlogCard from "../components/BlogCard";
 import ProductCard from "../components/ProductCard";
 import SpecialProduct from "../components/SpecialProduct";
+import Meta from "../components/Meta";
+import BreadCrumb from '../components/BreadCrumb';
 
 function Home() {
   return (
     <>
+      <Meta title={"Login"} />
+      <BreadCrumb title="Login"/>
       <section className="home-wrapper-1 py-5">
         <div className="container-xxl">
           <div className="row">

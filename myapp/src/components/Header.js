@@ -22,7 +22,7 @@ function Header() {
           <div className="row align-items-center">
             <div className="col-2">
               <h2>
-                <Link className="text-white">Dev Corner</Link>
+                <Link className="text-white">NhiênHacker</Link>
               </h2>
             </div>
 
@@ -89,7 +89,7 @@ function Header() {
                             type="button" 
                             data-bs-toggle="dropdown" 
                             aria-expanded="false">
-                      <img src="images/menu.svg" alt="menu" /> 
+                      <img src="/images/menu.svg" alt="menu" /> 
                       <span className="me-5 d-line-block">Shop Categories</span>
                     </button>
                     <ul className="dropdown-menu">

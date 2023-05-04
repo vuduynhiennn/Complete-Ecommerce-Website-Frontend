@@ -3,6 +3,7 @@ import ReactStars from "react-rating-stars-component";
 import Meta from "../components/Meta";
 import { useState } from "react";
 import ProductCard from "../components/ProductCard";
+import Color from "../components/Color";
 
 function OurStore(props) {
     const [ grid, setGrid ] = useState(4);
@@ -70,28 +71,7 @@ function OurStore(props) {
                             {/* filter by Price */}
                                 <h5 className="sub-title">Colors</h5>
                                 <div>
-                                    <div>
-                                        <ul className="colors ps-0">
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                        </ul>
-                                    </div>
+                                        <Color />
                                 </div>
 
                             {/* filter by size */}
